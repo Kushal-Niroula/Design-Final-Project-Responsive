@@ -1,0 +1,24 @@
+.header{
+    background-color:#eaae00;
+}
+.nav li {
+    list-style: none;
+    display: inline;
+}
+.nav li a:hover{
+    color: blue;
+}
+.nav li a{
+    text-decoration:none;
+    color:white;
+}
+.searchbox input{
+    
+    border:none;
+    outline:0;
+    background-color:#ffc400;
+}
+.searchbox input::placeholder{
+    color:white;
+    text-align: center;
+}
