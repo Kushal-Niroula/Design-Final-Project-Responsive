@@ -9,6 +9,7 @@
     
     padding: 1em 1em 0.5em 1em;
     float:left;
+    overflow:hidden;
   
 }
 .logo{
@@ -32,7 +33,7 @@
 }
 .searchbox{
     clear:both;
-    float:left;
+    
     width:100%;
     margin-left:30%;
     margin-top:5px;
@@ -46,6 +47,33 @@
     height:15px;
 }
 
+/*for body part */
+
+.main{
+    width:100%;
+    
+}
+.r1{
+    padding-left:2em;
+    float:left;
+    width:100%;
+    padding-top:16px;
+}
+.r1 .left{
+    width:61.11%;
+    float:left;
+    padding-right:11.02%;
+}
+.r1 .left .text{
+    padding-top:15px;
+}
+.r1 .right{
+    width:38.89%;
+    float:left;
+}
+.left-btn{
+    margin: 16px 8px 0 0;
+}
 
 /* for tab screen */
 @media (min-width:480px){
@@ -64,6 +92,12 @@
 .logo img{
     width:100%;
 }
+.nav{
+    margin-top:0;
+    margin-left:5.28%;
+    width: 24.153em;
+    position:relative;
+}
 .searchbox{
     margin-left:0;
     clear:none;
@@ -71,12 +105,7 @@
     float:right;
     width:19.03%;
 }
-.nav{
-    margin-top:0;
-    margin-left:5.28%;
-    width: 24.153em;
-    position:relative;
-}
+
 
 }
 

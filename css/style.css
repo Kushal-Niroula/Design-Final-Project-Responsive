@@ -16,16 +16,47 @@
     
     border:none;
     outline:0;
-    background-color:#ffc400;
+   
 }
 .searchbox input::placeholder{
     color:white;
     text-align: center;
 }
+.yellow-back{
+    background-color: #ffc400;
+}
+/*for body part mob */
+.r1 .right img {
+    width:29.1vw;
+}
+.r1 .left .title p{
+    font-weight: bold;
+    color:white;
+    font-size: 150%;
+}
+.r1 .left .text p{
+    color:white;
+    font-size: 85%;
+    text-align: justify;
+}
+.right-btn {
+    border:1px solid white;
+    background-color: inherit;
+    color:white;
+    padding:3px;
+}
+.left-btn , .right-btn:hover{
+    border:hidden;
+    background-color:#00bfcb;
+    color:white;
+    padding:3px;
+}
 
 
 
-/* header for tabs */
+
+
+/* for tabs */
 @media (min-width:480px){
 .header{
     font-size: 2.08vw;
