@@ -48,6 +48,52 @@
 
 
 /* for tab screen */
-@media (min-width:480px){
+@media (min-width:492px){
+.body{
+    width:100%
+}
+.header{
+    padding:33px 1.95% 5.21vw 1.95% ;
+    float:left;
+}
+.logo{
+    margin-left: 0;
+    width:14.72%;
+    float:left;
+}
+.logo img{
+    width:100%;
+}
+.searchbox{
+    margin-left:0;
+    clear:none;
+    margin-top:0;
+    float:right;
+    width:19.03%;
+}
+.nav{
+    margin-top:0;
+    margin-left:5.28%;
+    width: 24.153em;
+    position:relative;
+}
+
+}
+
+/* for big screen */
+@media (min-width:768px){
+    .body{
+        width:100%;
+    }
+    .header{
+        padding: 33px 9.51% 40px 9.51%
+    }
+    .searchbox{
+        width:19.16%;
+    }
+    .nav{
+        padding-top:11px;
+        width:43%;
+    }
 
 }

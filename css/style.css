@@ -22,3 +22,52 @@
     color:white;
     text-align: center;
 }
+
+
+
+/* header for tabs */
+@media (min-width:480px){
+.header{
+    font-size: 2.08vw;
+}
+.searchbox input{
+    height: 3.90vw;
+    width:74.09%;
+
+}
+.searchbox img{
+    height:3.90vw;
+    width:25.91%;
+}
+.nav a{
+    font-size:160%;
+}
+.nav li:last-child a{
+    padding-right:0px;
+}
+}
+/* header for big screen */
+
+@media(min-width:768px){
+.header{
+    font-size:16px;
+}
+.searchbox input{
+    height:42px;
+    width:74.09%
+
+}
+.searchbox img{
+    height:42px;
+    width:25.91%;
+
+}
+.nav li a {
+    font-size: 2.29vw;
+}
+.logo{
+    width:14.72vw;
+    max-width:212px;
+}
+
+}
