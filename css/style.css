@@ -11,6 +11,7 @@
 .nav li a{
     text-decoration:none;
     color:white;
+    font-size:1em;
 }
 .searchbox input{
     width:9.43em;
