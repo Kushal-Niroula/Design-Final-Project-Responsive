@@ -33,12 +33,12 @@
 .r1 .right img {
     width:29.1vw;
 }
-.r1 .left .title p , .r2 .title {
+.r1 .left .title p , .r2 .title ,.r4 .title{
     font-weight: bold;
     color:white;
     font-size: 150%;
 }
-.r1 .left .text p, .r2 .text p{
+.r1 .left .text p, .r2 .text p , .r4 .text .p{
     color:white;
     font-size: 85%;
     text-align: justify;
@@ -58,22 +58,22 @@
     color:white;
     padding:3px;
 }
-.r2{
+.r2, .r4{
     padding-bottom:10vw;
 }
 
-.r2 .left-btn{
+.r2 .left-btn, .r4 .left-btn{
     margin-top:3.7vw;
     background-color: #ffc400;
 }
-.r2 .title{
+.r2 .title, .r4 .title{
     color:black;
     font-size:140%;
 }
 .r2 .text p{
     color:black;
 }
-.big-rect{
+.r2 .big-rect{
     margin-left:15%;
     height:33.54vw;
     width:35.34vw;
@@ -83,7 +83,7 @@
     z-index:1;
 
 }
-.small-rect{
+.r2 .small-rect{
     float:left;
     margin-top:-25%;
     margin-left: 5%;
@@ -98,6 +98,7 @@
     height:10%;
     margin:45%;
     z-index: 2;
+    
 }
 .big-rect:hover{
     background-image:url("../assets/video-dog.png");
@@ -144,8 +145,43 @@
     color:white;
     font-size:80%;
     text-align: center;
-    
+
 }
+.r4 .big-rect{
+    margin-right:15%;
+    height:33.54vw;
+    width:35.34vw;
+    display: block;
+    position: relative;
+    background-color:#eaae00 ;
+    z-index:1;
+}
+.r4 .big-rect img{
+
+    transform: scaleX(-1);
+
+}
+.r4 .small-rect{
+    float:right;
+    margin-top:-25%;
+    margin-right: 5%;
+    width:17.7vw;
+    height:14.51vw;
+    background-color: #ffc400;
+    position: relative;
+
+}
+.r4 .text p{
+    text-align: right;
+}
+.r4 .left-btn{
+    float:right;
+}
+
+.r4 .title{
+    text-align: right;
+}
+
 
 
 

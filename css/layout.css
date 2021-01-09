@@ -81,11 +81,11 @@
     margin-top:3.7vw;
 }
 
-.r2 .left{
+.r2 .left , .r4 .left{
     width:50%;
     float:left;
 }
-.r2 .right{
+.r2 .right , .r4 .right{
     width:50%;
     float:left;
 }
