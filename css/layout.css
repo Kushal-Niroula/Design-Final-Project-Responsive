@@ -6,7 +6,7 @@
 }
 .header{
     width: 100%;
-    
+    font-size: 3.34vw;
     padding: 1em 1em 0.5em 1em;
     float:left;
     overflow:hidden;
@@ -25,6 +25,7 @@
     margin-top:0.4em;
     float:left;
     margin-left:2em;
+    width:15.8em;
 }
 
 .nav li a{
@@ -34,7 +35,7 @@
 .searchbox{
     clear:both;
     
-    width:100%;
+    width:30em;
     margin-left:30%;
     margin-top:5px;
 }
@@ -45,6 +46,7 @@
 .searchbox img{
     float:left;
     height:15px;
+    width:1.25em;
 }
 
 /*for body part */
@@ -53,11 +55,11 @@
     width:100%;
     
 }
-.r1{
+.row{
     padding-left:2em;
     float:left;
     width:100%;
-    padding-top:16px;
+    padding-top:1em;
 }
 .r1 .left{
     width:61.11%;
@@ -105,6 +107,10 @@
     float:right;
     width:19.03%;
 }
+.row{
+    padding-left:1em;
+}
+
 
 
 }
@@ -123,6 +129,10 @@
     .nav{
         padding-top:11px;
         width:53%;
+    }
+    .row{
+        padding-left:9.51%;
+        padding-right:9.51%;
     }
 
 }
