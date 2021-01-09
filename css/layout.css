@@ -25,7 +25,7 @@
     margin-top:0.4em;
     float:left;
     margin-left:2em;
-    width:15.8em;
+    width:17.8em;
 }
 
 .nav li a{
@@ -66,7 +66,7 @@
     float:left;
     padding-right:11.02%;
 }
-.r1 .left .text{
+.r1 .left .text, .r2 .left .text{
     padding-top:15px;
 }
 .r1 .right{
@@ -76,6 +76,21 @@
 .left-btn{
     margin: 16px 8px 0 0;
 }
+
+.r2 .left{
+    width:50%;
+    float:left;
+}
+.r2 .right{
+    width:50%;
+    float:left;
+}
+
+.small-rect{
+
+}
+
+
 
 /* for tab screen */
 @media (min-width:480px){
