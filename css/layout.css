@@ -60,6 +60,7 @@
     float:left;
     width:100%;
     padding-top:1em;
+    padding-right:2em;
 }
 .r1 .left{
     width:61.11%;
@@ -88,8 +89,31 @@
     width:50%;
     float:left;
 }
-
-
+.r3 .up-text{
+    width:55%;
+    margin:0 auto;
+}
+.r3 .down-pics{
+    width:100%;
+}
+.r3 .left-img{
+    float:left;
+}
+.r3 .middle-img{
+    float:left;
+}
+.r3 .right-img{
+    float:right;
+}
+.r3 .down-pics{
+    margin-top: 3.33vw;
+}
+.r3 .down-pics .title{
+    padding-bottom: 1vw;
+}
+.r3{
+    padding-bottom: 6.7vw;
+}
 
 
 
