@@ -93,16 +93,17 @@
     width:55%;
     margin:0 auto;
 }
+
 .down-pics{
     width:100%;
 }
-.r3 .left-img, .r5 .left-img{
+.down-pics .left-img{
     float:left;
 }
-.r3 .middle-img, .r5 .middle-img{
+.down-pics .middle-img{
     float:left;
 }
-.r3 .right-img , .r5 .right-img{
+.down-pics .right-img{
     float:right;
 }
 .down-pics{
@@ -110,6 +111,10 @@
 }
 .down-pics .title{
     padding-bottom: 1vw;
+}
+.left-box ,.middle-box,.right-box{
+    width:33%;
+    float:left;
 }
 
 
