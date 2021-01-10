@@ -113,9 +113,23 @@
     padding-bottom: 1vw;
 }
 .left-box ,.middle-box,.right-box{
-    width:33%;
+    width:28%;
     float:left;
 }
+.r8 .down-pics{
+    width:100%;
+    float:left;
+}
+.left-post ,.middle-post,.right-post{
+    width:28%;
+    float:left;
+}
+.left-post,.middle-post{
+    margin-right:8%;
+}
+
+
+
 
 
 /* for tab screen */
