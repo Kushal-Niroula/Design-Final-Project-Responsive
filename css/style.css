@@ -360,7 +360,6 @@
 .feedback img{
     width:10.21vw;
     height:4.2vw;
-    float:left;
 }
 .social-media{
     clear:both;
@@ -371,7 +370,7 @@
     float:left;
 }
 .social-media ul{
-    margin-left:20%;
+    
     padding-top:16px;
 
 }
@@ -408,6 +407,42 @@
 .row{
     padding-bottom: 10vw;
     padding-top:5vw;
+}
+
+/* for footer */
+.services{
+    float:left;
+    margin-left:15%;
+}
+.foot-right{
+    clear:none;
+    float:right;
+    padding-top:0px;
+}
+.feedback{
+    margin-top:0px;
+
+}
+.foot-right .topic , .foot-right .txts{
+    text-align: right;
+}
+.feedback .txts{
+    padding-top:10px;
+}
+.feedback input{
+    margin-left:0px;
+}
+.feedback input ,.feedback img{
+    margin-top:3vw;
+}
+.social-media img{
+    max-width:3vw;
+}
+
+.social-media{
+    clear:both;
+    float:right;
+    margin-top:1.5vw;
 }
 
 }
@@ -455,6 +490,9 @@
     margin-left:7%;
 }
 
-
+/*footer */
+.footer{
+    font-size:150%;
+}
 
 }
