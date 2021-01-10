@@ -306,10 +306,75 @@
     border:1px solid #d7d7d7;
     border-top: 0px;
 }
+.footer{
+    background-color: #313131;
 
+}
+.about a, .services a{
+    text-decoration:none;
+    color:white;
+}
+.about{
+    float:left;
+}
+.services{
+    float:right;
+}
+.topic{
+    font-size: 100%;
+    color:white;
+    font-weight: bold;
+}
+.about li , .services li {
+    list-style: none;
+    font-size: 75%;
 
+}
+.about ul , .services ul{
+    padding-top:5px;
+    
+}
+.foot-right{
+    clear:both;
+    padding-top:16px;
+}
+.foot-right .topic{
+    text-align: center;
+}
+.foot-right .txts{
+    color:white;
+    font-size: 75%;
+    text-align: center;
+}
+.feedback{
+    margin-top:10px;
+}
+.feedback input{
+    margin-left:30%;
+    
+    width:23.65vw;
+    border:none;
+    height:4.2vw;
+    float:left;
+}
+.feedback img{
+    width:10.21vw;
+    height:4.2vw;
+    float:left;
+}
+.social-media{
+    clear:both;
 
+}
+.social-media li{
+    list-style:none;
+    float:left;
+}
+.social-media ul{
+    margin-left:20%;
+    padding-top:16px;
 
+}
 
 
 /* for tabs */
