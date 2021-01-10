@@ -109,13 +109,13 @@
     background-color: #00bfcb ;
 }
 
-.r3 .up-text .title{
+.up-text .title{
     text-align:center;
     color:white;
     font-size: 140%;
     font-weight: bold;
 }
-.r3 .text p{
+.r3 .text p ,.r5 .text p{
     padding-top: 1em;
     text-align:center;
     color:white;
@@ -180,6 +180,36 @@
 
 .r4 .title{
     text-align: right;
+}
+
+.r5 .down-pics .title {
+    color:white;
+    text-align: center;
+
+}
+
+.strike{
+    text-decoration: line-through;
+    padding-right: 7%;
+}
+.buy{
+    margin-top:-1vw;
+    width:100%;
+
+}
+
+.buy a{
+    margin-left:35%;
+    text-decoration: none;
+    color:white;
+    font-size:60%;
+    padding:0.2em 0.5em 0.2em 0.5em;
+    background-color: #00bfcb;
+    border-radius: 30px;
+}
+.r5 .middle-img img{
+    max-width:100%;
+    max-height:100%;
 }
 
 
