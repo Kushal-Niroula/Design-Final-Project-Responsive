@@ -504,6 +504,13 @@
 .r3 .left-img , .r3 .middle-img, .r3 .right-img{
     width:28%;
     }
+.r5 .left-img , .r5 .middle-img , .r5 .right-img{
+    float:left;
+    width:28%;
+}
+.r5 .middle-img, .r5 .right-img{
+    margin-left:8%;
+}
 
 
 /* for footer */
