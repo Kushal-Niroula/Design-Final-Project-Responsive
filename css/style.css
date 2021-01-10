@@ -326,8 +326,8 @@
     height:3.90vw;
     width:25.91%;
 }
-.nav a{
-    font-size:160%;
+.nav li a{
+    font-size:2.7vw;
 }
 .nav li:last-child a{
     padding-right:0px;
@@ -336,6 +336,13 @@
 /* for body tab */
 .main{
     font-size:3.08vw;
+}
+.r1 .left{
+    padding-top:5vw;
+}
+.row{
+    padding-bottom: 10vw;
+    padding-top:5vw;
 }
 
 }
@@ -373,7 +380,7 @@
 .left-btn , .right-btn{
     width:12.63vw;
     height:4.7vw;
-    font-size: 20px;
+    font-size: 16px;
     
 }
 .left-img , .middle-img , .right-img{
