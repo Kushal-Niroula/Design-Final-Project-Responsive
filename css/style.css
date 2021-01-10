@@ -45,9 +45,10 @@
 }
 .r1 .left .text p, .r2 .text p , .r4 .text .p{
     color:white;
-    font-size: 85%;
+    font-size: 65%;
     text-align: justify;
 }
+
 .left-btn, .right-btn{
     border-radius: 10px;
 }
@@ -207,11 +208,11 @@
 }
 
 .buy a{
-    margin-left:35%;
+    margin-left:32%;
     text-decoration: none;
     color:white;
     font-size:60%;
-    padding:0.2em 0.5em 0.2em 0.5em;
+    padding:0.5em;
     background-color: #00bfcb;
     border-radius: 30px;
 }
@@ -410,6 +411,10 @@
     list-style:none;
     float:left;
 }
+.foot-li li a:hover{
+    color:#00bfcb;
+
+}
 .social-media ul{
     
     padding-top:16px;
@@ -551,7 +556,7 @@
 
 /*footer */
 .footer{
-    font-size:150%;
+    font-size:180%;
 }
 
 }
