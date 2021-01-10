@@ -30,6 +30,7 @@
 
 .nav li a{
     padding:0.5em;
+    font-family: 'Poppins';
 
 }
 .searchbox{
@@ -69,6 +70,7 @@
 }
 .r1 .left .text, .r2 .left .text{
     padding-top:15px;
+    font-family: 'Poppins';
 }
 .r1 .right{
     width:38.89%;
@@ -97,15 +99,7 @@
 .down-pics{
     width:100%;
 }
-.down-pics .left-img{
-    float:left;
-}
-.down-pics .middle-img{
-    float:left;
-}
-.down-pics .right-img{
-    float:right;
-}
+
 .down-pics{
     margin-top: 3.33vw;
 }
@@ -116,6 +110,7 @@
     width:28%;
     float:left;
 }
+
 .r8 .down-pics{
     width:100%;
     float:left;
@@ -126,6 +121,9 @@
 }
 .left-post,.middle-post{
     margin-right:8%;
+}
+.row{
+    padding-bottom:0.5em;
 }
 
 
