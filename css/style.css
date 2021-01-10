@@ -494,16 +494,15 @@
     float:left;
     width:28%;
 }
-.r6 .right-img , .r6 .middle-img, .r5 .right-img , .r5 .middle-img,.r3 .left-img , .r3 .middle-img, .r3 .right-img{
+.r6 .right-img , .r6 .middle-img, .r5 .right-img , .r5 .middle-img, .r3 .middle-img, .r3 .right-img{
     margin-left:8%;
 }
-.r5 .left-img ,.r5 .middle-img ,.r5 .right-img,.r3 .left-img {
-    width:27%;}
+
 .r3 .right-img{
     margin-right: 0px;;
 }
 .r3 .left-img , .r3 .middle-img, .r3 .right-img{
-    width:25%;
+    width:28%;
     }
 
 
