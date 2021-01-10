@@ -49,28 +49,35 @@
     text-align: justify;
 }
 
-.left-btn, .right-btn{
-    border-radius: 10px;
-}
 .right-btn {
     border:2px solid white;
     background-color: inherit;
     color:white;
     padding:3px;
 }
+.left-btn, .right-btn{
+    border-radius: 5px;
+    
+}
 .left-btn , .right-btn:hover{
     border:hidden;
     background-color:#00bfcb;
     color:white;
-    padding:3px;
+
+}
+.left-btn{
+    padding:5px;
 }
 .r2, .r4{
     padding-bottom:10vw;
 }
 
 .r2 .left-btn, .r4 .left-btn{
-    margin-top:3.7vw;
+   
     background-color: #ffc400;
+}
+.r2 .buttons{
+    margin-top:1.7vw;
 }
 .r2 .title, .r4 .title{
     color:black;
@@ -184,13 +191,30 @@
     text-align: right;
 }
 .r4 .left-btn{
+    padding:5px;
     float:right;
 }
 
 .r4 .title{
     text-align: right;
 }
-
+.r4 .text{
+    margin-top:0.5em;
+    font-size: 65%;
+    margin-bottom: 1em;;
+}
+.r4 .iso-btn{
+    float:right;
+    padding:3px;
+    background-color: #ffc400;
+    text-decoration: none;
+    color:white;
+    border-radius: 5px;
+    font-size: 65%;
+}
+.r4 .iso-btn:hover{
+    background-color:#00bfcb  ;
+}
 .r5 .down-pics .title {
     color:white;
     text-align: center;
