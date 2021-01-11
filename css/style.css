@@ -41,7 +41,7 @@
 .r1 .left .title p , .r2 .title ,.r4 .title{
     font-weight: bold;
     color:white;
-    font-size: 150%;
+    font-size: 128%;
 }
 .r1 .left .text p, .r2 .text p , .r4 .text .p{
     color:white;
@@ -82,7 +82,7 @@
 }
 .r2 .title, .r4 .title{
     color:black;
-    font-size:140%;
+    font-size:128%;
 }
 .r2 .text p{
     color:black;
@@ -160,7 +160,7 @@
 }
 .r3 .down-pics .txt{
     color:white;
-    font-size:65%;
+    font-size:54%;
     text-align: center;
 
 }
@@ -341,7 +341,7 @@
     max-height:100%;
 }
 .r8 .down-pics .title{
-    font-size: 70%;
+    font-size: 56%;
     font-weight: bold;
     padding-bottom: 5px;
 }
@@ -352,7 +352,7 @@
 }
 .r8 .down-pics .text {
     padding-top:10px;
-    font-size: 45%;
+    font-size: 39%;
     color:#9d9da7
 }
 .read-more a{
@@ -377,8 +377,10 @@
     border:1px solid #d7d7d7;
     border-top: 0px;
 }
+/*footer */
 .footer{
     background-color: #313131;
+    font-family: 'Poppins',sans-serif;
 
 }
 .about a, .services a{
@@ -488,7 +490,7 @@
     padding-top:5vw;
 }
 .r6 .down-pics .title{
-    font-size: 100%;
+    font-size: 80%;
 }
 
 .r6 .left-img ,.r6 .middle-img ,.r6 .right-img{

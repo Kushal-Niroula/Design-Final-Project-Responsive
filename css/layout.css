@@ -10,6 +10,7 @@
     padding: 1em 1em 0.5em 1em;
     float:left;
     overflow:hidden;
+    font-family: 'Poppins' , sans-serif;
   
 }
 .logo{
@@ -30,7 +31,7 @@
 
 .nav li a{
     padding:0.5em;
-    font-family: 'Poppins';
+   
 
 }
 .searchbox{
@@ -54,6 +55,7 @@
 
 .main{
     width:100%;
+    font-family: 'Poppins', sans-serif;
     
 }
 .row{
@@ -70,7 +72,6 @@
 }
 .r1 .left .text, .r2 .left .text{
     padding-top:15px;
-    font-family: 'Poppins';
 }
 .r1 .right{
     width:38.89%;
@@ -92,7 +93,7 @@
     float:left;
 }
 .up-text{
-    width:55%;
+    width:65%;
     margin:0 auto;
 }
 
