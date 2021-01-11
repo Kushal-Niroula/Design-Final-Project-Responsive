@@ -416,7 +416,7 @@
 }
 .foot-right .txts{
     color:white;
-    font-size: 61%;
+    font-size: 2.5vw;
     text-align: center;
 }
 .feedback{
@@ -536,6 +536,9 @@
 .foot-right .topic , .foot-right .txts{
     text-align: right;
 
+}
+.foot-right .txts{
+    font-size: 1.5vw;
 }
 .feedback .txts{
     padding-top:10px;
