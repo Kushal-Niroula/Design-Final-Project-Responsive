@@ -416,11 +416,12 @@
 }
 .foot-right .txts{
     color:white;
-    font-size: 75%;
+    font-size: 63%;
     text-align: center;
 }
 .feedback{
     margin-top:10px;
+   
 }
 .feedback input{
     margin-left:30%;
@@ -527,11 +528,14 @@
     padding-top:0px;
 }
 .feedback{
+    float:right;
     margin-top:0px;
 
 }
+
 .foot-right .topic , .foot-right .txts{
     text-align: right;
+
 }
 .feedback .txts{
     padding-top:10px;
@@ -588,7 +592,13 @@
     width:12.63vw;
     height:4.7vw;
     font-size: 2vw;
+    padding:8px;
     
+}
+
+.r1 .right-btn{
+    margin-left:1em;
+
 }
 
 .middle-img{
@@ -597,7 +607,7 @@
 
 /*footer */
 .footer{
-    font-size:180%;
+    font-size:2vw;
 }
 
 }
