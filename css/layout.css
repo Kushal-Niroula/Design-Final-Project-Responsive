@@ -38,7 +38,7 @@
     clear:both;
     
     width:30em;
-    margin-left:30%;
+    margin-left:35%;
     margin-top:5px;
 }
 .searchbox input{
@@ -66,31 +66,47 @@
     padding-right:2em;
 }
 .r1 .left{
-    width:61.11%;
-    float:left;
-    padding-right:11.02%;
+    width:100%;
+    margin:0 auto;
+
+}
+.r1 .right{
+    display: none;;
+}
+.r1 .left .title{
+    
+    width:55%;
+    margin:0 auto;
+    text-align: center;
 }
 .r1 .left .text, .r2 .left .text{
     padding-top:15px;
 }
-.r1 .right{
-    width:38.89%;
-    float:left;
-}
+
 .left-btn{
     margin: 0 8px 0 0;
 }
 .r1 .buttons{
     margin-top:3.7vw;
 }
+.r2 .left {
+    width:100%;
+}
+.r2 .right{
+    display:none;
+}
+.r2 .left .title{
+    text-align: center;
+}
 
-.r2 .left , .r4 .left{
+ .r4 .left{
+     display:none;
     width:50%;
     float:left;
 }
-.r2 .right , .r4 .right{
-    width:50%;
-    float:left;
+ .r4 .right{
+    width:100%;
+   
 }
 .up-text{
     width:65%;
@@ -100,6 +116,7 @@
 .down-pics{
     width:100%;
 }
+
 
 .down-pics{
     margin-top: 3.33vw;
@@ -164,6 +181,34 @@
 .row{
     padding-left:1em;
 }
+.r1 .left{
+    width:61.11%;
+    float:left;
+   
+}
+.r1 .right{
+    display:block;
+    width:38.89%;
+    float:left;
+
+}
+.r1 .left .title{
+    
+    width:100%;
+    margin:0 auto;
+    text-align: left;
+}
+.r4 .left{
+    display: block;
+    width:50%;
+    float:left;
+}
+ .r4 .right{
+    
+    width:50%;
+    float:left;
+}
+
 
 
 
